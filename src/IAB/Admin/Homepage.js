@@ -94,10 +94,10 @@ function Homepage() {
     <div className="flex flex-col shadow-lg w-[320px] h-fit border-2 border-[#140a22] bg-white items-center rounded-[32px]">
 
     <form className='w-[280px] mt-[30.5px]' onSubmit={saveForm} encType="multipart/form-data">
-    <h1 className='font-bold text-[18px] text-center pb-[30px]'> Upload New Reminder</h1>
+    <h1 className='font-bold text-[18px] text-center pb-[30px]'> Upload News</h1>
 
     <input placeholder='Topic or Title'  value={Title} onChange={OnchangeTitle} 
-      className='w-full border-b-[1px] shadow-md rounded-md focus:outline-0 text-[14px] pb-[3.5px] pl-3 border-[#140a22] mb-4 text-[#140a22] '/>
+      className='w-full border-b-[1px] shadow-md rounded-md focus:outline-0 text-[14px] pb-[3.5px] pl-3 border-[#140a22] mb-4 text-[#140a22] required '/>
 
     <textarea placeholder='Description ...'  value={Description} onChange={OnchangeDescription}
       className='w-full border-b-[1px] shadow-md h-[70px] rounded-md focus:outline-0 text-[14px] pb-[3.5px] pl-3 border-[#140a22] text-[#140a22] mt-[24px]'/>
